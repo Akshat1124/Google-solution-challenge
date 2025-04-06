@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><title>Performance</title><link rel="stylesheet" href="style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head><body>
+<header>
+  <h1>🏅 Athlete Monitoring System</h1>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="performance.html">Performance</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="medical.html">Medical</a>
+    <a href="analytics.html">Analytics</a>
+    <a href="ai.html">Gemini AI</a>
+  </nav>
+</header>
+<main><div class="card"><canvas id="chart"></canvas></div></main><script>new Chart(document.getElementById('chart'),{type:'line',data:{labels:['W1','W2','W3'],datasets:[{label:'Score',data:[60,75,90],borderColor:'blue'}]}});</script></body></html>
